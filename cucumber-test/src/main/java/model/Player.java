@@ -1,14 +1,14 @@
 package model;
 
 import java.util.ArrayList;
-
+	
 public class Player {
 	
 	private boolean turnStatus = false;
 	private int playerID;
-	ConsoleMessage response = new ConsoleMessage();
-	ArrayList<Card> hand = new ArrayList<Card>(9);
-	ArrayList<Card> turnHand = new ArrayList<Card>(5);
+	private ConsoleMessage response = new ConsoleMessage();
+	private ArrayList<Card> hand = new ArrayList<Card>(9);
+	private ArrayList<Card> turnHand;
 
 	
 	public void setID(Integer playerID) {
@@ -24,8 +24,9 @@ public class Player {
 	public ConsoleMessage setHand(ArrayList<Card> hand) {
 		
 		
-		this.hand = hand;
-		response.setMessage("9 cards were dealt!");
+		if (hand.size() == 9) {
+			response.setMessage("9 cards were dealt!");
+		}
 		
 		return response;
 		

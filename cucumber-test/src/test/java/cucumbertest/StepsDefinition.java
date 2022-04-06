@@ -31,10 +31,10 @@ public class StepsDefinition {
 	    gameMaster.initializeRound();
 	}
 	
-	@Then("player receives {int} programming cards")
-	public void player_receives_programming_cards(Integer int1) {
-		cardsDealt = new ArrayList<Card>(int1);
-		response = player.setHand(cardsDealt);
+	@Then("player receives nine programming cards")
+	public void player_receives_programming_cards() {
+		
+		response = player.setHand(new ArrayList<Card>(9));
 	}
 	@Then("console should display a sucessful message")
 	public void console_should_display_a_sucessful_message() {
