@@ -9,5 +9,4 @@ public class StepsDefinition {
 	Robot robot = new Robot();
 	Board board = new Board();
 	
-
 }
