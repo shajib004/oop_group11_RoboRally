@@ -34,7 +34,7 @@ public class StepsDefinition {
 	@Then("player receives nine programming cards")
 	public void player_receives_programming_cards() {
 		
-		response = player.setHand(new ArrayList<Card>(9));
+		response = player.setHand(new ArrayList<Card>(8));
 	}
 	@Then("console should display a sucessful message")
 	public void console_should_display_a_sucessful_message() {
