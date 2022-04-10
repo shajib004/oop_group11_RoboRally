@@ -1,4 +1,4 @@
-package cucumbertest;
+package cucumbertest_giovanni;
 
 import static org.junit.Assert.*;
 
@@ -9,7 +9,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import model.*;
 
-public class StepsDefinition {
+public class StepDefinitionU2 {
 	
 
 }
