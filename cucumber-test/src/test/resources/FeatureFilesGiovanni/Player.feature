@@ -1,4 +1,3 @@
-@tag
 Feature: Player getting cards
 	
 	 Background:

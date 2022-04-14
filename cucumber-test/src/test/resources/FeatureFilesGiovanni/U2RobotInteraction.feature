@@ -1,5 +1,6 @@
 Feature: Interacting with Obstacles
 
+	#Test
 	Background:
 		Given robot on the board in x 1 and y 1
 
