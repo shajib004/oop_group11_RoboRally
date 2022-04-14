@@ -10,7 +10,7 @@ import io.cucumber.java.en.When;
 import model.*;
 import model.tile.Robot;
 
-public class StepDefinitionU2 {
+public class U2Steps {
 		Player player;
 		Robot robot = new Robot();
 		Board board = new Board();
