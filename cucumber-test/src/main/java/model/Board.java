@@ -1,13 +1,12 @@
 package model;
 
+import model.card.Card;
 import model.tile.Robot;
 import model.tile.Tile;
 
 public class Board {
 	
 	private Tile[][] board;
-	private Robot robot;
-	private Position position;
 	
 	public Tile[][] getBoard() {
 		return this.board;
@@ -18,8 +17,7 @@ public class Board {
 		
 	}
 
-	public void moveRobot(Robot robot) {
-	
+	public void moveRobot(Robot robot, Card card) {
 		
 	}
 	

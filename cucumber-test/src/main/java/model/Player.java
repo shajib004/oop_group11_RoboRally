@@ -2,6 +2,7 @@ package model;
 
 import java.util.ArrayList;
 
+import model.card.Card;
 import model.tile.Robot;
 	
 public class Player {

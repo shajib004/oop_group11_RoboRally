@@ -27,8 +27,7 @@ public class U2Steps {
 
 	@Then("robot should be on coordinate x {int} and y {int}")
 	public void robot_should_be_on_coordinate_x_and_y(Integer int1, Integer int2) {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	    
 	}
 
 	@Then("tile on the new coordinate ia a Pit")
